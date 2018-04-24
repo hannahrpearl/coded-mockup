@@ -2,6 +2,21 @@ body {
     background-color: lightblue;
 }
 
+nav {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    border: solid 1px black;
+    margin: auto;
+    font-size: 18px;
+    background-color: white;
+}
+
+nav-flex {
+    display: flex;
+    padding: 0px;
+}
+
 p.purple {
     color: purple;
 }
