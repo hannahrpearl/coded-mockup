@@ -4,14 +4,11 @@ body {
 
 p.purple {
     color: purple;
-
 }
 
 h {
     font-size: 30px;
     font-family: serif;
-    border-bottom: black;
-    border-top: black;
 }
 
 h2 {
