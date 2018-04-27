@@ -41,16 +41,29 @@ hr {
 .img-circle {
     border-radius: 50%;
     height:400px;
+    margin: 50px;
+}
+
+#absolute {
+    position: absolute;
+    width: 300px;
+    left: 600px;
+    color: black;
+    z-index: 10;
+    border: solid 1px white;
+    top: 900px;
 }
 
 img {
     width: 400px;
     height: 300px;
+    margin: 20px;
 }
 
 .img-logo {
-    width: 450px;
-    height: 500px;
+    width: 525px;
+    height: 600px;
+
 }
 
 @media screen {
