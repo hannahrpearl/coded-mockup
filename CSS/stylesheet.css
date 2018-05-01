@@ -41,6 +41,7 @@ hr {
 .img-circle {
     border-radius: 50%;
     height:400px;
+    width: 410px;
     margin: 50px;
 }
 
