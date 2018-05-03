@@ -52,12 +52,13 @@ hr {
 
 #absolute {
     position: absolute;
-    width: 300px;
+    width: 600px;
     left: 600px;
     color: black;
     z-index: -10;
     border: solid 1px white;
-    top: 900px;
+    top: 950px;
+    font-size: 30px;
 }
 
 img {
