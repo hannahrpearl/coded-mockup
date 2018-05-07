@@ -12,9 +12,16 @@ nav {
     background-color: white;
 }
 
-nav-flex {
+#nav-flex {
+    left: 600px;
     display: flex;
-    padding: 0px;
+    padding: 10px;
+    z-index:10px;
+    width:1250px;
+    flex-direction: row;
+    margin: 3px;
+    float: right;
+    flex-direction: row-reverse;
 }
 
 p.purple {
