@@ -17,15 +17,24 @@ nav {
     display: flex;
     padding: 10px;
     z-index:10px;
-    width:1250px;
+    width:1150px;
     flex-direction: row;
     margin: 3px;
     float: right;
     flex-direction: row-reverse;
+    font-family: monospace;
+}
+
+li {
+    display: inline-block;
+    list-style: none;
+    margin-left:inherit;
+    margin-right: inherit;
 }
 
 p.purple {
     color: purple;
+    font-family: monospace;
 }
 
 h {
@@ -51,10 +60,11 @@ hr {
 }
 
 .img-circle {
-    border-radius: 50%;
+    border-radius: 70%;
     height:400px;
     width: 410px;
     margin: 50px;
+
 }
 
 #absolute {
@@ -69,6 +79,8 @@ hr {
 }
 
 img {
+    min-width: inherit;
+    max-width: inherit;
     width: 400px;
     height: 300px;
     margin: 20px;
@@ -79,3 +91,4 @@ img {
     height: 600px;
     margin-top:30px;
 }
+
